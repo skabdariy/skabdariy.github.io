@@ -1,0 +1,82 @@
+h2{
+	background-color: green
+}
+.hite{
+	background-color: white;
+	animation: changebackground 8s infinite;
+}
+body{
+	background-color: orange
+}
+footer{
+	background-color: green;
+}
+hr{
+	border: 2px solid black
+}
+a{
+	text-decoration: none;
+}
+button{
+	background-color: orange;
+	border: 2px solid black;
+}
+button:hover{
+	background-color: green;
+	width: 100px;
+	height: 25px;
+	border: 3px solid black;
+}
+.predmet{
+	text-align: center;
+	color: green;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.goods{
+	border: 2px solid black;
+	width: 400px;
+	height: 450px;
+	display: inline-block;
+}
+.side-div{
+  width: 33%;
+  display: inline-block;
+  animation: rotate 5s infinite;
+  animation-delay: 2s;
+}
+.center-div{
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
+@keyframes rotate {
+  0%   {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+@keyframes changebackground {
+  0% {background: white}
+  50% {background: red}
+  100% {background: white}
+}
+@keyframes movebutton {
+  0% {transform: translate(500px,0px)}
+  100% {transform: translate(0px,0px)}
+}
+	.button1{
+	animation: movebutton 0.5s 1;
+}
+.button2{
+	animation: movebutton 1s 1;
+}
+.button3{
+	animation: movebutton 1.5s 1;
+}
+.button4{
+	animation: movebutton 2s 1;
+}
+.button5{
+	animation: movebutton 2.5s 1;
+}
